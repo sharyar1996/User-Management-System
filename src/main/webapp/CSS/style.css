@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ .navbar{
+	 background-color: gray;
+	 color: white;
+	 min-height: 5em;
+ }
+ .navbar ul{
+	 display: flex;
+	 justify-content: space-around;
+	 align-items: center;
+	 padding-top: 1em;
+ }
+ .navbar li{
+	 list-style: none;
+	 color: white;
+ }
+ a{
+	 color: white;
+	 text-decoration: none;
+ }
+ a:hover{
+	 color: lightgrey;
+ }
+ 
+ main{
+	 width: 70%;
+	 margin: auto;
+	 background-color: lightblue;
+ }
+ main h1{
+	 border-bottom:  1px solid black;
+	 padding: 1em 0em;
+	 text-align: center;
+ }
